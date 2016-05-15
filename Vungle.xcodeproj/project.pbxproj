@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1815B0451CDF66A400C85208 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 1815B03E1CDF66A400C85208 /* __vungle.db */; };
+		1815B0461CDF66A400C85208 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815B03F1CDF66A400C85208 /* vg_close.png */; };
+		1815B0471CDF66A400C85208 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815B0401CDF66A400C85208 /* vg_cta.png */; };
+		1815B0481CDF66A400C85208 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815B0411CDF66A400C85208 /* vg_mute_off.png */; };
+		1815B0491CDF66A400C85208 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815B0421CDF66A400C85208 /* vg_mute_on.png */; };
+		1815B04A1CDF66A400C85208 /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815B0431CDF66A400C85208 /* vg_privacy.png */; };
+		1815B04B1CDF66A400C85208 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1815B0441CDF66A400C85208 /* VungleSDK.framework */; };
+		18EAF1401CDF5D40001D8B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF13F1CDF5D40001D8B55 /* main.m */; };
+		18EAF1431CDF5D40001D8B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF1421CDF5D40001D8B55 /* AppDelegate.m */; };
+		18EAF1461CDF5D40001D8B55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF1451CDF5D40001D8B55 /* ViewController.m */; };
+		18EAF14B1CDF5D40001D8B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF14A1CDF5D40001D8B55 /* Assets.xcassets */; };
+		18EAF14E1CDF5D40001D8B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF14C1CDF5D40001D8B55 /* LaunchScreen.storyboard */; };
+		18EAF1591CDF5D40001D8B55 /* VungleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF1581CDF5D40001D8B55 /* VungleTests.m */; };
+		18EAF1641CDF5D40001D8B55 /* VungleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF1631CDF5D40001D8B55 /* VungleUITests.m */; };
+		18EAF1811CDF5E5F001D8B55 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1721CDF5E5F001D8B55 /* AdSupport.framework */; };
+		18EAF1821CDF5E5F001D8B55 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1731CDF5E5F001D8B55 /* AudioToolbox.framework */; };
+		18EAF1831CDF5E5F001D8B55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1741CDF5E5F001D8B55 /* AVFoundation.framework */; };
+		18EAF1841CDF5E5F001D8B55 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1751CDF5E5F001D8B55 /* CFNetwork.framework */; };
+		18EAF1851CDF5E5F001D8B55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1761CDF5E5F001D8B55 /* CoreGraphics.framework */; };
+		18EAF1861CDF5E5F001D8B55 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1771CDF5E5F001D8B55 /* CoreMedia.framework */; };
+		18EAF1871CDF5E5F001D8B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1781CDF5E5F001D8B55 /* Foundation.framework */; };
+		18EAF1881CDF5E5F001D8B55 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1791CDF5E5F001D8B55 /* libsqlite3.tbd */; };
+		18EAF1891CDF5E5F001D8B55 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF17A1CDF5E5F001D8B55 /* libz.tbd */; };
+		18EAF18A1CDF5E5F001D8B55 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF17B1CDF5E5F001D8B55 /* MediaPlayer.framework */; };
+		18EAF18B1CDF5E5F001D8B55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF17C1CDF5E5F001D8B55 /* QuartzCore.framework */; };
+		18EAF18C1CDF5E5F001D8B55 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF17D1CDF5E5F001D8B55 /* StoreKit.framework */; };
+		18EAF18D1CDF5E5F001D8B55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF17E1CDF5E5F001D8B55 /* SystemConfiguration.framework */; };
+		18EAF18E1CDF5E5F001D8B55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF17F1CDF5E5F001D8B55 /* UIKit.framework */; };
+		18EAF18F1CDF5E5F001D8B55 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAF1801CDF5E5F001D8B55 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		18FED2EA1CE07AC300A78954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FED2E91CE07AC300A78954 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EAF1551CDF5D40001D8B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EAF1331CDF5D40001D8B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EAF13A1CDF5D40001D8B55;
+			remoteInfo = Vungle;
+		};
+		18EAF1601CDF5D40001D8B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EAF1331CDF5D40001D8B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EAF13A1CDF5D40001D8B55;
+			remoteInfo = Vungle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1815B03E1CDF66A400C85208 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		1815B03F1CDF66A400C85208 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		1815B0401CDF66A400C85208 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		1815B0411CDF66A400C85208 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		1815B0421CDF66A400C85208 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		1815B0431CDF66A400C85208 /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		1815B0441CDF66A400C85208 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		18EAF13B1CDF5D40001D8B55 /* Vungle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vungle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EAF13F1CDF5D40001D8B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EAF1411CDF5D40001D8B55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EAF1421CDF5D40001D8B55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EAF1441CDF5D40001D8B55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18EAF1451CDF5D40001D8B55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18EAF14A1CDF5D40001D8B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EAF14D1CDF5D40001D8B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EAF14F1CDF5D40001D8B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EAF1541CDF5D40001D8B55 /* VungleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VungleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EAF1581CDF5D40001D8B55 /* VungleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VungleTests.m; sourceTree = "<group>"; };
+		18EAF15A1CDF5D40001D8B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EAF15F1CDF5D40001D8B55 /* VungleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VungleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EAF1631CDF5D40001D8B55 /* VungleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VungleUITests.m; sourceTree = "<group>"; };
+		18EAF1651CDF5D40001D8B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EAF1721CDF5E5F001D8B55 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		18EAF1731CDF5E5F001D8B55 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18EAF1741CDF5E5F001D8B55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18EAF1751CDF5E5F001D8B55 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18EAF1761CDF5E5F001D8B55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18EAF1771CDF5E5F001D8B55 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18EAF1781CDF5E5F001D8B55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18EAF1791CDF5E5F001D8B55 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18EAF17A1CDF5E5F001D8B55 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18EAF17B1CDF5E5F001D8B55 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18EAF17C1CDF5E5F001D8B55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18EAF17D1CDF5E5F001D8B55 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		18EAF17E1CDF5E5F001D8B55 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18EAF17F1CDF5E5F001D8B55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18EAF1801CDF5E5F001D8B55 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		18FED2E91CE07AC300A78954 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EAF1381CDF5D40001D8B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAF1811CDF5E5F001D8B55 /* AdSupport.framework in Frameworks */,
+				18EAF1821CDF5E5F001D8B55 /* AudioToolbox.framework in Frameworks */,
+				1815B04B1CDF66A400C85208 /* VungleSDK.framework in Frameworks */,
+				18EAF1831CDF5E5F001D8B55 /* AVFoundation.framework in Frameworks */,
+				18EAF1841CDF5E5F001D8B55 /* CFNetwork.framework in Frameworks */,
+				18EAF1851CDF5E5F001D8B55 /* CoreGraphics.framework in Frameworks */,
+				18EAF1861CDF5E5F001D8B55 /* CoreMedia.framework in Frameworks */,
+				18EAF1871CDF5E5F001D8B55 /* Foundation.framework in Frameworks */,
+				18EAF1881CDF5E5F001D8B55 /* libsqlite3.tbd in Frameworks */,
+				18EAF1891CDF5E5F001D8B55 /* libz.tbd in Frameworks */,
+				18EAF18A1CDF5E5F001D8B55 /* MediaPlayer.framework in Frameworks */,
+				18EAF18B1CDF5E5F001D8B55 /* QuartzCore.framework in Frameworks */,
+				18EAF18C1CDF5E5F001D8B55 /* StoreKit.framework in Frameworks */,
+				18EAF18D1CDF5E5F001D8B55 /* SystemConfiguration.framework in Frameworks */,
+				18EAF18E1CDF5E5F001D8B55 /* UIKit.framework in Frameworks */,
+				18EAF18F1CDF5E5F001D8B55 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAF1511CDF5D40001D8B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAF15C1CDF5D40001D8B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1815B03C1CDF66A400C85208 /* VungleSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				1815B03D1CDF66A400C85208 /* Resources */,
+				1815B0441CDF66A400C85208 /* VungleSDK.framework */,
+			);
+			path = VungleSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		1815B03D1CDF66A400C85208 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1815B03E1CDF66A400C85208 /* __vungle.db */,
+				1815B03F1CDF66A400C85208 /* vg_close.png */,
+				1815B0401CDF66A400C85208 /* vg_cta.png */,
+				1815B0411CDF66A400C85208 /* vg_mute_off.png */,
+				1815B0421CDF66A400C85208 /* vg_mute_on.png */,
+				1815B0431CDF66A400C85208 /* vg_privacy.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18EAF1321CDF5D40001D8B55 = {
+			isa = PBXGroup;
+			children = (
+				18EAF1711CDF5D6F001D8B55 /* Frameworks */,
+				18EAF13D1CDF5D40001D8B55 /* Vungle */,
+				18EAF1571CDF5D40001D8B55 /* VungleTests */,
+				18EAF1621CDF5D40001D8B55 /* VungleUITests */,
+				18EAF13C1CDF5D40001D8B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EAF13C1CDF5D40001D8B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF13B1CDF5D40001D8B55 /* Vungle.app */,
+				18EAF1541CDF5D40001D8B55 /* VungleTests.xctest */,
+				18EAF15F1CDF5D40001D8B55 /* VungleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EAF13D1CDF5D40001D8B55 /* Vungle */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF1411CDF5D40001D8B55 /* AppDelegate.h */,
+				18EAF1421CDF5D40001D8B55 /* AppDelegate.m */,
+				18EAF1441CDF5D40001D8B55 /* ViewController.h */,
+				18EAF1451CDF5D40001D8B55 /* ViewController.m */,
+				18FED2E91CE07AC300A78954 /* Main.storyboard */,
+				18EAF14A1CDF5D40001D8B55 /* Assets.xcassets */,
+				18EAF14C1CDF5D40001D8B55 /* LaunchScreen.storyboard */,
+				18EAF14F1CDF5D40001D8B55 /* Info.plist */,
+				18EAF13E1CDF5D40001D8B55 /* Supporting Files */,
+			);
+			path = Vungle;
+			sourceTree = "<group>";
+		};
+		18EAF13E1CDF5D40001D8B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF13F1CDF5D40001D8B55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18EAF1571CDF5D40001D8B55 /* VungleTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF1581CDF5D40001D8B55 /* VungleTests.m */,
+				18EAF15A1CDF5D40001D8B55 /* Info.plist */,
+			);
+			path = VungleTests;
+			sourceTree = "<group>";
+		};
+		18EAF1621CDF5D40001D8B55 /* VungleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF1631CDF5D40001D8B55 /* VungleUITests.m */,
+				18EAF1651CDF5D40001D8B55 /* Info.plist */,
+			);
+			path = VungleUITests;
+			sourceTree = "<group>";
+		};
+		18EAF1711CDF5D6F001D8B55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1815B03C1CDF66A400C85208 /* VungleSDK.embeddedframework */,
+				18EAF1721CDF5E5F001D8B55 /* AdSupport.framework */,
+				18EAF1731CDF5E5F001D8B55 /* AudioToolbox.framework */,
+				18EAF1741CDF5E5F001D8B55 /* AVFoundation.framework */,
+				18EAF1751CDF5E5F001D8B55 /* CFNetwork.framework */,
+				18EAF1761CDF5E5F001D8B55 /* CoreGraphics.framework */,
+				18EAF1771CDF5E5F001D8B55 /* CoreMedia.framework */,
+				18EAF1781CDF5E5F001D8B55 /* Foundation.framework */,
+				18EAF1791CDF5E5F001D8B55 /* libsqlite3.tbd */,
+				18EAF17A1CDF5E5F001D8B55 /* libz.tbd */,
+				18EAF17B1CDF5E5F001D8B55 /* MediaPlayer.framework */,
+				18EAF17C1CDF5E5F001D8B55 /* QuartzCore.framework */,
+				18EAF17D1CDF5E5F001D8B55 /* StoreKit.framework */,
+				18EAF17E1CDF5E5F001D8B55 /* SystemConfiguration.framework */,
+				18EAF17F1CDF5E5F001D8B55 /* UIKit.framework */,
+				18EAF1801CDF5E5F001D8B55 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EAF13A1CDF5D40001D8B55 /* Vungle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EAF1681CDF5D40001D8B55 /* Build configuration list for PBXNativeTarget "Vungle" */;
+			buildPhases = (
+				18EAF1371CDF5D40001D8B55 /* Sources */,
+				18EAF1381CDF5D40001D8B55 /* Frameworks */,
+				18EAF1391CDF5D40001D8B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vungle;
+			productName = Vungle;
+			productReference = 18EAF13B1CDF5D40001D8B55 /* Vungle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EAF1531CDF5D40001D8B55 /* VungleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EAF16B1CDF5D40001D8B55 /* Build configuration list for PBXNativeTarget "VungleTests" */;
+			buildPhases = (
+				18EAF1501CDF5D40001D8B55 /* Sources */,
+				18EAF1511CDF5D40001D8B55 /* Frameworks */,
+				18EAF1521CDF5D40001D8B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EAF1561CDF5D40001D8B55 /* PBXTargetDependency */,
+			);
+			name = VungleTests;
+			productName = VungleTests;
+			productReference = 18EAF1541CDF5D40001D8B55 /* VungleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EAF15E1CDF5D40001D8B55 /* VungleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EAF16E1CDF5D40001D8B55 /* Build configuration list for PBXNativeTarget "VungleUITests" */;
+			buildPhases = (
+				18EAF15B1CDF5D40001D8B55 /* Sources */,
+				18EAF15C1CDF5D40001D8B55 /* Frameworks */,
+				18EAF15D1CDF5D40001D8B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EAF1611CDF5D40001D8B55 /* PBXTargetDependency */,
+			);
+			name = VungleUITests;
+			productName = VungleUITests;
+			productReference = 18EAF15F1CDF5D40001D8B55 /* VungleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EAF1331CDF5D40001D8B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jericho;
+				TargetAttributes = {
+					18EAF13A1CDF5D40001D8B55 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					18EAF1531CDF5D40001D8B55 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18EAF13A1CDF5D40001D8B55;
+					};
+					18EAF15E1CDF5D40001D8B55 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18EAF13A1CDF5D40001D8B55;
+					};
+				};
+			};
+			buildConfigurationList = 18EAF1361CDF5D40001D8B55 /* Build configuration list for PBXProject "Vungle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EAF1321CDF5D40001D8B55;
+			productRefGroup = 18EAF13C1CDF5D40001D8B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EAF13A1CDF5D40001D8B55 /* Vungle */,
+				18EAF1531CDF5D40001D8B55 /* VungleTests */,
+				18EAF15E1CDF5D40001D8B55 /* VungleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EAF1391CDF5D40001D8B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1815B0481CDF66A400C85208 /* vg_mute_off.png in Resources */,
+				18EAF14E1CDF5D40001D8B55 /* LaunchScreen.storyboard in Resources */,
+				18EAF14B1CDF5D40001D8B55 /* Assets.xcassets in Resources */,
+				1815B0451CDF66A400C85208 /* __vungle.db in Resources */,
+				1815B0491CDF66A400C85208 /* vg_mute_on.png in Resources */,
+				1815B04A1CDF66A400C85208 /* vg_privacy.png in Resources */,
+				1815B0471CDF66A400C85208 /* vg_cta.png in Resources */,
+				18FED2EA1CE07AC300A78954 /* Main.storyboard in Resources */,
+				1815B0461CDF66A400C85208 /* vg_close.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAF1521CDF5D40001D8B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAF15D1CDF5D40001D8B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EAF1371CDF5D40001D8B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAF1461CDF5D40001D8B55 /* ViewController.m in Sources */,
+				18EAF1431CDF5D40001D8B55 /* AppDelegate.m in Sources */,
+				18EAF1401CDF5D40001D8B55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAF1501CDF5D40001D8B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAF1591CDF5D40001D8B55 /* VungleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAF15B1CDF5D40001D8B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAF1641CDF5D40001D8B55 /* VungleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EAF1561CDF5D40001D8B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EAF13A1CDF5D40001D8B55 /* Vungle */;
+			targetProxy = 18EAF1551CDF5D40001D8B55 /* PBXContainerItemProxy */;
+		};
+		18EAF1611CDF5D40001D8B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EAF13A1CDF5D40001D8B55 /* Vungle */;
+			targetProxy = 18EAF1601CDF5D40001D8B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EAF14C1CDF5D40001D8B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EAF14D1CDF5D40001D8B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EAF1661CDF5D40001D8B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18EAF1671CDF5D40001D8B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EAF1691CDF5D40001D8B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+				);
+				INFOPLIST_FILE = Vungle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-objC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.Vungle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EAF16A1CDF5D40001D8B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+				);
+				INFOPLIST_FILE = Vungle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-objC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.Vungle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18EAF16C1CDF5D40001D8B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VungleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.VungleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vungle.app/Vungle";
+			};
+			name = Debug;
+		};
+		18EAF16D1CDF5D40001D8B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VungleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.VungleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vungle.app/Vungle";
+			};
+			name = Release;
+		};
+		18EAF16F1CDF5D40001D8B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VungleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.VungleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vungle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18EAF1701CDF5D40001D8B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VungleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.VungleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vungle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EAF1361CDF5D40001D8B55 /* Build configuration list for PBXProject "Vungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EAF1661CDF5D40001D8B55 /* Debug */,
+				18EAF1671CDF5D40001D8B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EAF1681CDF5D40001D8B55 /* Build configuration list for PBXNativeTarget "Vungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EAF1691CDF5D40001D8B55 /* Debug */,
+				18EAF16A1CDF5D40001D8B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EAF16B1CDF5D40001D8B55 /* Build configuration list for PBXNativeTarget "VungleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EAF16C1CDF5D40001D8B55 /* Debug */,
+				18EAF16D1CDF5D40001D8B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EAF16E1CDF5D40001D8B55 /* Build configuration list for PBXNativeTarget "VungleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EAF16F1CDF5D40001D8B55 /* Debug */,
+				18EAF1701CDF5D40001D8B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EAF1331CDF5D40001D8B55 /* Project object */;
+}
